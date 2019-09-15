@@ -1,0 +1,10 @@
+(commands)
+> hello. asm: create nasm file
+
+nasm -f elf64 -o hello.o hello.asm: compile the code
+//nasm -f elf64 - define assembly format to 64-bit
+//-o hello.o - declare output file name
+//hello.asm declare input file
+
+ld hello.o -o hello: link the object file to input file for execution
+./hello: execute the file
