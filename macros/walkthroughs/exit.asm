@@ -1,3 +1,5 @@
+; running a macro - to exit program 
+
 section .data
         msg db "The macro 'exit' has run successfully"
         len equ $ - msg
