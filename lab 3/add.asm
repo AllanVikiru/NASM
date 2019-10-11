@@ -69,8 +69,6 @@ section .text
             mov eax, SYS_EXIT
             int 80h
 
-            
-  
 section .bss
     firstNumber resb 2
     secondNumber resb 2
