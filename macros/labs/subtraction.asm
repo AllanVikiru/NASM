@@ -1,7 +1,7 @@
 ; lab exercise to subtract 2 numbers where macros and EQU definitions 
 ; are defined in include file.
 
-%include "subtract_include.asm"
+%include "include.asm"
 
 section .data
     msg1 db "Enter the first digit:"

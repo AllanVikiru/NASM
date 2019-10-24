@@ -1,9 +1,9 @@
 ; creates myFile.txt
 
-SECTION .data
+section .data
     filename db 'myFile.txt'
 
-SECTION .text
+section .text
 global _start
     _start:
     mov ecx, 0777
