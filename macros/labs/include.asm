@@ -3,7 +3,7 @@ SYS_IN equ 0
 SYS_WRITE equ 4
 SYS_READ equ 3
 SYS_EXIT equ 1
-length equ 2
+length equ 2 ;define variables
 
 %macro output 2 ; macro output declared with 2 parameters
     mov eax, SYS_WRITE
