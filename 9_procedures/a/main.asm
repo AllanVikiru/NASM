@@ -1,4 +1,4 @@
-%include 'lol.asm'
+%include 'functions'.asm'
 section .text
     global _start
         _start:
